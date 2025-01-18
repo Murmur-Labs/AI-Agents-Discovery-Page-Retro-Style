@@ -1,0 +1,49 @@
+.app {
+  background-color: var(--terminal-bg);
+  min-height: 100vh;
+  color: var(--terminal-orange);
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--terminal-orange);
+  text-transform: uppercase;
+}
+
+.subtitle {
+  text-align: center;
+  color: var(--terminal-dim);
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.sponsors {
+  text-align: center;
+  margin: 2rem 0;
+  color: var(--terminal-orange);
+  font-size: 1.2rem;
+}
+
+.sponsor-logo {
+  background: var(--terminal-dim);
+  padding: 1rem;
+  border-radius: 0;
+  margin: 1rem auto;
+  max-width: 400px;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: var(--terminal-dim);
+  border-top: 1px solid var(--terminal-dim);
+  font-size: 1.1rem;
+}

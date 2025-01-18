@@ -1,0 +1,64 @@
+.agent-card {
+  background-color: var(--terminal-bg);
+  border: 1px solid var(--terminal-orange);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-content h3 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.category {
+  color: var(--terminal-dim);
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin: 0.5rem 0;
+}
+
+.tag {
+  background-color: var(--terminal-dim);
+  color: var(--terminal-orange);
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.rating {
+  display: flex;
+  gap: 0.5rem;
+  color: var(--terminal-dim);
+  font-size: 1.1rem;
+}
+
+.token-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--terminal-orange);
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.token-section button {
+  background-color: var(--terminal-orange);
+  color: var(--terminal-bg);
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
